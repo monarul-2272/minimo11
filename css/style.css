@@ -195,28 +195,31 @@ footer{
     background-color: #f0f0f0;
     padding: 10px 0;
 }
-.h_left {
-    padding-top: 16px;
-    padding-left: 65px;
+.pages {
     width: 45%;
     float: left;
 }
-.h_left p{
-    display: inline;
-    padding-right: 20px;
+.pages ul li {
+    float: left;
+    padding-left: 18px;
+    list-style: none;
     font-size: 16px;
     color: #000000;
 }
-.h_right{
+.pages ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+.social{
     width: 45%;
     float: right;
 }
-.h_right ul{
+.social ul{
     float: right;
 }
-.h_right ul li {
-    padding-left: 18px;
+.social ul li {
     float: left;
+    padding-left: 18px;
     list-style: none;
     font-size: 16px;
     color: #000000;
